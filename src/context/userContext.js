@@ -4,10 +4,8 @@ const UserContext = createContext();
 
 const Wrapper = (props) => {
   const [greeting, setGreeting] = useState("Hello");
-  // const greeting = "Hello";
 
   const changeGreeting = (item) => {
-    console.log(item);
     setGreeting(item);
   };
 

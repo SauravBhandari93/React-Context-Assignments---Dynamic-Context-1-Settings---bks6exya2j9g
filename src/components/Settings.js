@@ -4,9 +4,7 @@ import { UserContext } from "../context/userContext";
 
 export const Settings = () => {
   // to be implemented in context
-  const { changeGreeting, greeting } = useContext(UserContext);
-
-  console.log(greeting);
+  const { changeGreeting } = useContext(UserContext);
 
   return (
     <div style={{ border: "5px solid red", padding: "8px" }} id="settings">
